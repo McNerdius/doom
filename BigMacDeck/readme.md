@@ -1,21 +1,26 @@
 # BIGMACDECK
 
-A large, streaming-friendly deck for [Corruption Cards](https://forum.zdoom.org/viewtopic.php?t=67939).
 
 ![BigMacDeck-screenshot](BigMacDeck-5.4/graphics/decks/BigMacDeck.png)
 
+A large, streaming-friendly deck for [Corruption Cards](https://forum.zdoom.org/viewtopic.php?t=67939) with:
 - 197 active cards
 - 50 disabled cards
 - 8 "bookmarked" card
 
-The goal is to avoid the following:
+
+Avoiding:
   - Potentially map-breaking cards
   - Special "achievement" style or other cards that can by themselves make gameplay grindy or annoying.
   - Progress-inhibiting or reversing cards.
 
-Just load the `BigMacDeck-*.pk3` after the Corruption Cards PK3 and the deck will be presented along with the defaults:
+Just load the [`BigMacDeck-*.pk3`](BigMacDeck-5.4.pk3) after the Corruption Cards PK3 and the deck will be presented along with the defaults:
 
 ![ZDL](ZDL.png)
+
+Voila:
+
+![BigMacDeckScreenshot](BigMacDeck-Screenshot.png)
 
 Difficulty progression is disabled by default, but custom mode settings can override this.  Disabling it ensures maximum variety in card selection.  IMO, variety is what makes Corruption Cards great.  For this same reason i use custom mode to offer eight cards:
 
