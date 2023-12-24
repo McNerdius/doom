@@ -6,7 +6,7 @@
 A large, streaming-friendly deck for [Corruption Cards](https://forum.zdoom.org/viewtopic.php?t=67939) with:
 - 197 active cards
 - 50 disabled cards
-- 8 "bookmarked" card
+- 8 "bookmarked" cards
 
 
 Avoiding:
