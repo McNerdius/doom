@@ -13,7 +13,11 @@ The goal is to avoid the following:
   - Potentially map-breaking cards
   - Special "achievement" style or other cards that can by themselves make gameplay grindy or annoying.
   - Progress-inhibiting or reversing cards.
-  
+
+Just load the `BigMacDeck-*.pk3` after the Corruption Cards PK3 and the deck will be presented along with the defaults:
+
+![ZDL](ZDL.png)
+
 Difficulty progression is disabled by default, but custom mode settings can override this.  Disabling it ensures maximum variety in card selection.  IMO, variety is what makes Corruption Cards great.  For this same reason i use custom mode to offer eight cards:
 
 ![CC-Settings-2](CC-Settings-2.png)
@@ -25,6 +29,10 @@ Eight could be a bit much for streaming, maybe six would be more reasonable usin
 Which looks like this:
 
 ![CC-StreamerLayout](CC-StreamerLayout.png)
+
+---
+
+Creating a custom deck is simple but tedious given the sheer number of cards.  It boils down to creating a `CCARDS.txt` as described [here](https://github.com/CutmanMike/corruptioncards) and plopping that into a `.pk3`.  The folder `BigMacDeck-5.4` mirrors `BigMacDeck-5.4.pk3` - just two files, the `CCARDS.txt` and the BigMacDeck graphic.  In time this repository will house "McDeck", a tool i'm working on to simplify creation and sharing of custom decks.
 
 ---
 
@@ -46,7 +54,7 @@ Notes: Generally annoying.
 
 Wrath Sentries:
 ------
-Add several sentries that fire # projectiles.
+Add several sentries that fire {species} projectiles.
 Notes: Progress-blocking.
 
 Cult Chow:
@@ -61,7 +69,7 @@ Notes: A wee bit unfair ?
 
 Frankenstein's Gift:
 ------
-# can stitch together two corpses to make a new monster.
+{species} can stitch together two corpses to make a new monster.
 Notes: Gets out of control when applied randomly mid-level.
 
 Armageddon:
@@ -208,67 +216,67 @@ Notes: Imagine choosing between sniping a cybie or teleporting next to it.
 
 Kleptomania:
 ------
-# will steal items off the ground.
+{species} will steal items off the ground.
 Notes: Good luck getting 100% items with this one.
 
 Casali's Watchers:
 ------
-# may become an immobile, self-resurrecting sentry.
+{species} may become an immobile, self-resurrecting sentry.
 Notes: Progress blockers
 
 Forbidden Gaze:
 ------
-Looking at # for too long burns the player.
+Looking at {species} for too long burns the player.
 Notes: Annoying
 
 Living Vessel:
 ------
-# spawns 3 @ when killed.
+{species} spawns 3 {species} when killed.
 Notes: Can be applied randomly... Progress killer.
 
 Noxious Vials:
 ------
-# gain the ability to throw poison gas vials.
+{species} gain the ability to throw poison gas vials.
 Notes: Super annoying.
 
 Barbarity:
 ------
-# always deal the highest damage they've ever dealt.
+{species} always deal the highest damage they've ever dealt.
 Notes: Can be applied randomly...
 
 Reflect Enchantment:
 ------
-# reflect projectiles back at you.
+{species} reflect projectiles back at you.
 Notes: No
 
 Acid Blood Enchantment:
 ------
-# bleeds lethal acid.
+{species} bleeds lethal acid.
 Notes: Super annoying.
 
 Leap Enchantment:
 ------
-# can leap at their prey.
+{species} can leap at their prey.
 Notes: No 100% kills if they jump OOB.
 
 High Voltage Enchantment:
 ------
-# will electrocute nearby players.
+{species} will electrocute nearby players.
 Notes: Super annoying
 
 Infestation Enchantment:
 ------
-Exploding critters may hide inside # corpses.
+Exploding critters may hide inside {species} corpses.
 Notes: Super annoying
 
 Bombardment Augment:
 ------
-# continuously throw projectiles.
+{species} continuously throw projectiles.
 Notes: Progress-blocking.
 
 Electric Augment:
 ------
-# projectiles electrocute nearby players.
+{species} projectiles electrocute nearby players.
 Notes: Super annoying.
 
 New Hunting Grounds:

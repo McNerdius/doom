@@ -160,7 +160,7 @@
                     "Card": {
                         "iD": "SurpriseCyberdemon",
                         "Name": "Surprise Boss",
-                        "Hint": "Add a # somewhere in the level.",
+                        "Hint": "Add a {species} somewhere in the level.",
                         "Description": "At the start of the level a Cyberdemon is spawned somewhere in the level, but not too close to players. If the Cyberdemon has been replaced by mod, it spawns whatever monster would replace it."
                     },
                     "Preference": "enable"
@@ -187,7 +187,7 @@
                     "Card": {
                         "iD": "Specialists",
                         "Name": "The Specialists",
-                        "Hint": "You will be attacked by #!",
+                        "Hint": "You will be attacked by {species}!",
                         "Description": "At some point in the level, you will be attacked by an elite team of monsters. The team will consist of four monster types that already exist in the level, and will each receive a unique set of enchantments and buffs. They will spawn near a player and immediately start hunting them, demanding their attention. The team also gets a randomly generated name to strike fear into players. If picked as a permanent card, the same team will attack you every level."
                     },
                     "Preference": "enable"
@@ -871,7 +871,7 @@
                     "Card": {
                         "iD": "MonsterGang",
                         "Name": "Monster Gang",
-                        "Hint": "A gang of # may appear.",
+                        "Hint": "A gang of {species} may appear.",
                         "Description": "At some point during the level, a number of these monsters will begin spawning at one location. The location is random, but it will never be too close to any players. The amount of monsters depends on the strength of the monster. Weaker monsters will spawn in larger numbers. You will be alerted when the gang starts to arrive."
                     },
                     "Preference": "enable"
@@ -880,7 +880,7 @@
                     "Card": {
                         "iD": "MonsterAssassin",
                         "Name": "The Assassin",
-                        "Hint": "A # will try to assassinate you.",
+                        "Hint": "A {species} will try to assassinate you.",
                         "Description": "At some point during the level, an Assassin monster of this type will spawn near a player just barely out of sight. Assassins will try not to make any noise and will immediately start to close in on the player's position. They will never infight and are much more aggressive, attacking immediately and continuously. They also have slightly increased health and deal much more damage. If killed, the Assassin will not spawn again. However, if chosen as a permanent card, the Assassin gains a health boost each level from when the card was first chosen."
                     },
                     "Preference": "enable"
@@ -889,7 +889,7 @@
                     "Card": {
                         "iD": "AdditionalMonster",
                         "Name": "Clone Monster",
-                        "Hint": "All # in the level are increased by one.",
+                        "Hint": "All {species} in the level are increased by one.",
                         "Description": "At the start of the level, this monster will spawn with a copy of itself. This card cannot spawn more than 100 copies of the monster specified, though multiple copies of the same card can."
                     },
                     "Preference": "enable"
@@ -898,7 +898,7 @@
                     "Card": {
                         "iD": "ChildMonster",
                         "Name": "Small Companions",
-                        "Hint": "# spawn with a mini companion.",
+                        "Hint": "{species} spawn with a mini companion.",
                         "Description": "At the start of the level, a smaller version of this monster will spawn next to the original. These miniature monsters have half health and deal slightly less damage than their regular counterpart. The small companion will usually appear near the original monster, but due to their size they may wander into areas the originals wouldn't. This card cannot spawn more than 100 small companions of the monster specified, though multiple copies of the same card can."
                     },
                     "Preference": "enable"
@@ -907,7 +907,7 @@
                     "Card": {
                         "iD": "MonsterHunter",
                         "Name": "Vendetta",
-                        "Hint": "# are always focused on players.",
+                        "Hint": "{species} are always focused on players.",
                         "Description": "Monsters of this type have a vendetta, and will always focus their attention on players. Monsters with a vendetta will immediately start chasing any players that are alive, and will never target other monsters."
                     },
                     "Preference": "enable"
@@ -916,7 +916,7 @@
                     "Card": {
                         "iD": "MonsterVehicle",
                         "Name": "Carrier Upgrade",
-                        "Hint": "# can carry other monsters.",
+                        "Hint": "{species} can carry other monsters.",
                         "Description": "Monsters of this type will carry other monsters. When a monster encounters another monster of a different type, it will be placed on top of it. If the carried monster is blocked by a ceiling or another object, it will fall off. Monsters cannot carry monsters of the same type. If multiple monsters have this card, is is possible for carried monsters to carry other monsters, which is quite a sight to behold. Monsters that are being carried will attack more frequently."
                     },
                     "Preference": "enable"
@@ -925,7 +925,7 @@
                     "Card": {
                         "iD": "RespawningMonster",
                         "Name": "Respawning Nightmare",
-                        "Hint": "# respawn once after death.",
+                        "Hint": "{species} respawn once after death.",
                         "Description": "Monsters of this type will respawn once after death. This card only affects monsters that were originally placed in the level. After long duration, a monster that has died will respawn in the level. This duration is longer for stronger monsters. Even monsters that do not leave a corpse will be respawned by this card. Once the monster dies a second time, it cannot be respawned a second time. Although not the same as Doom's Nightmare! difficulty respawn mechanic, this card will not be offered if the game mode already respawns monsters."
                     },
                     "Preference": "enable"
@@ -934,7 +934,7 @@
                     "Card": {
                         "iD": "MonsterLastWord",
                         "Name": "Last Word",
-                        "Hint": "# fires a @ projectile on death.",
+                        "Hint": "{species} fires a {species} projectile on death.",
                         "Description": "When this type of monster dies, a portal spawns and fires a projectile of the type specified. The portal takes a short duration before firing the projectile, and the projectile will be aimed at the one who killed the monster. This card's tier is dependent on the power of the projectile."
                     },
                     "Preference": "enable"
@@ -943,7 +943,7 @@
                     "Card": {
                         "iD": "MonsterThrowCorpse",
                         "Name": "Necrokinesis",
-                        "Hint": "# will pick up and throw dead monsters.",
+                        "Hint": "{species} will pick up and throw dead monsters.",
                         "Description": "Monsters of this type will pick up any nearby corpses, and attempt to throw them at the player shortly after. Thrown corpses deal moderate damage and pass through obstacles and other monsters."
                     },
                     "Preference": "enable"
@@ -952,7 +952,7 @@
                     "Card": {
                         "iD": "MonsterTreachery",
                         "Name": "Treachery",
-                        "Hint": "# will prey on weaker monsters to gain offensive bonuses.",
+                        "Hint": "{species} will prey on weaker monsters to gain offensive bonuses.",
                         "Description": "Monsters of this type receive various bonuses after killing another monster, whether it is on purpose or by accident. The monster's attacks will permanently deal double damage, and can be identified by red sparks. One 1/4th of their base health will also be healed, and will gain any enchantments from the killed monster. Monsters affected by this card will also turn on any monsters nearby with lower health, in an attempt to snag the benefits from their weak ally. The damage boost does not stack if they kill multiple monsters, and does not stack with the Blood Fury enchantment."
                     },
                     "Preference": "enable"
@@ -961,7 +961,7 @@
                     "Card": {
                         "iD": "MonsterPromote",
                         "Name": "Promotion",
-                        "Hint": "# gain the effects of your other Enchantment cards.",
+                        "Hint": "{species} gain the effects of your other Enchantment cards.",
                         "Description": "Monsters of this type will gain all other enchantments from any other permanent enchantment cards in play. This card will always be offered to the weakest monster in the current level, and will only be offered if at least 3 enchantment cards are in play."
                     },
                     "Preference": "enable"
@@ -970,7 +970,7 @@
                     "Card": {
                         "iD": "MonsterFeignDeath",
                         "Name": "Feign Death",
-                        "Hint": "# may pretend to die.",
+                        "Hint": "{species} may pretend to die.",
                         "Description": "Monsters of this type gain the ability to feign death. Monsters with this ability will have less health than normal, but after being \"killed\" will resurrect themselves and begin hunting players once again. Monsters can only perform this ability once, but gain any benefits from being resurrected."
                     },
                     "Preference": "enable"
@@ -979,7 +979,7 @@
                     "Card": {
                         "iD": "MonsterSOS",
                         "Name": "Distress Enchantment",
-                        "Hint": "# may summon nearby allies when dying.",
+                        "Hint": "{species} may summon nearby allies when dying.",
                         "Description": "The specified monster has a chance to teleport in a nearby monster when it dies. The dying monster will try to summon a stronger monster if possible. The summoned monster immediately targets the player that killed the monster that called out to it."
                     },
                     "Preference": "enable"
@@ -988,7 +988,7 @@
                     "Card": {
                         "iD": "MonsterFirstStrike",
                         "Name": "Pre-emptive Strike",
-                        "Hint": "# fire a @ projectile upon seeing a player.",
+                        "Hint": "{species} fire a {species} projectile upon seeing a player.",
                         "Description": "When this monster is first able to see the player, a portal will quickly fire the specified projectile at the player. Each monster can only fire the projectile once, even if it is resurrected. The monster will not fire the projectile if it is busy targetting another monster, and will hold onto it until the player becomes its target. This card's tier is dependent on the power of the projectile."
                     },
                     "Preference": "enable"
@@ -997,7 +997,7 @@
                     "Card": {
                         "iD": "ExtraMonsters",
                         "Name": "Summoned Monsters",
-                        "Hint": "Add extra # to the level.",
+                        "Hint": "Add extra {species} to the level.",
                         "Description": "At the start of the level, extra monsters of this type will be added at random locations in the level. The amount of monsters spawned is dependent on how strong the monster is, and how many monsters already exist in the level. This card cannot spawn more than 20 copies of the monster specified, though multiple copies of the same card can."
                     },
                     "Preference": "enable"
@@ -1006,7 +1006,7 @@
                     "Card": {
                         "iD": "MonsterEssenceCycle",
                         "Name": "Recycle Essence",
-                        "Hint": "# may consume a corpse to gain a random enchantment.",
+                        "Hint": "{species} may consume a corpse to gain a random enchantment.",
                         "Description": "Monsters of this type will devour any nearby dead monsters to gain a random card enchantment. The enchantment can be of any enchantment cards, even if they are currently not in play. Devoured corpses are completely removed from the game."
                     },
                     "Preference": "enable"
@@ -1015,7 +1015,7 @@
                     "Card": {
                         "iD": "MonsterGrenade",
                         "Name": "Hell Grenades",
-                        "Hint": "# gain the ability to throw grenades.",
+                        "Hint": "{species} gain the ability to throw grenades.",
                         "Description": "Monsters of this type gain the ability to throw a bouncing grenade at their target. The grenades bounce off of floors, walls and ceilings and explode after a short duration. Stronger monsters throw grenades that deal more damage, and bosses throw grenades much more frequently."
                     },
                     "Preference": "enable"
@@ -1024,7 +1024,7 @@
                     "Card": {
                         "iD": "MonsterWebAttack",
                         "Name": "Arachnid Mutation",
-                        "Hint": "# may throw slowing web balls.",
+                        "Hint": "{species} may throw slowing web balls.",
                         "Description": "Monsters of this type gain the ability to throw sticky web balls. When a web ball explodes, the floor becomes webbed for a few seconds. Players have their speed drastically reduced while walking through the webs. Bosses throw web balls much more frequently."
                     },
                     "Preference": "enable"
@@ -1033,7 +1033,7 @@
                     "Card": {
                         "iD": "MonsterSmokeBomb",
                         "Name": "Smoke Bombs",
-                        "Hint": "# gain the ability to throw smoke bombs.",
+                        "Hint": "{species} gain the ability to throw smoke bombs.",
                         "Description": "Monsters of this type gain the ability to throw a bouncing smoke bomb at their target. If the monster is badly wounded, it will drop the bomb at their feet. The bombs bounce off of floors, walls and ceilings and explode into clouds of smoke after a short duration. The smoke from the bombs doesn't harm the players and will disappear after a few seconds. Bosses throw smoke bombs much more frequently."
                     },
                     "Preference": "enable"
@@ -1042,7 +1042,7 @@
                     "Card": {
                         "iD": "VoidWalker",
                         "Name": "Void Walk",
-                        "Hint": "# can create portals that teleport monsters and projectiles.",
+                        "Hint": "{species} can create portals that teleport monsters and projectiles.",
                         "Description": "The chosen monster gain the ability to create portals that allow for teleportation. A portal will appear near the player and the monster, and both are linked. The monster who created the portal will immediately jump through and hunt the player. Other monsters and projectiles can also use the portals while they remain open, but players cannot."
                     },
                     "Preference": "enable"
@@ -1051,7 +1051,7 @@
                     "Card": {
                         "iD": "GenericSpawnPods",
                         "Name": "Spawn Pods",
-                        "Hint": "Add spawn pods that continuously spawn # until killed.",
+                        "Hint": "Add spawn pods that continuously spawn {species} until killed.",
                         "Description": "Adds several monster spawning pods to the level. These spawn pods spawn whichever monster has been selected by the card. Spawn pods will continuously spawn monsters, and must be killed to stop them. Each spawn pod is limited to 5 spawned monsters on the map, and will only spawn new ones if any of those 5 have died. Spawn pods can be resurrected by certain effects."
                     },
                     "Preference": "enable"
@@ -1060,7 +1060,7 @@
                     "Card": {
                         "iD": "MonsterBlastBomb",
                         "Name": "Concussion Grenade",
-                        "Hint": "# gain the ability to throw bombs that knock entities away.",
+                        "Hint": "{species} gain the ability to throw bombs that knock entities away.",
                         "Description": "Monsters of this type gain the ability to throw a bouncing concussion grenade at their target. If the monster is badly wounded, it will drop the bomb at their feet. The bombs bounce off of floors, walls and ceilings. When they explode, all nearby entities are blasted away. This includes items, monsters, players and other shootable objects. Bosses throw concussion grenades much more frequently."
                     },
                     "Preference": "enable"
@@ -1069,7 +1069,7 @@
                     "Card": {
                         "iD": "MonsterUnholyWater",
                         "Name": "Unholy Water",
-                        "Hint": "# gain the ability to throw vials that can resurrect monsters.",
+                        "Hint": "{species} gain the ability to throw vials that can resurrect monsters.",
                         "Description": "Monsters of this type gain the ability to toss vials of unholy water at their target. If the monster is badly wounded, it will drop the vial at their feet. When the vials hit a surface they break, releasing unholy water in a small radius. Unholy water does nothing to players, but resurrects dead monsters that get drenched in it."
                     },
                     "Preference": "enable"
@@ -1078,7 +1078,7 @@
                     "Card": {
                         "iD": "MonsterPumpkinBomb",
                         "Name": "Pumpkin Bombs",
-                        "Hint": "# gain the ability to throw spooky bombs.",
+                        "Hint": "{species} gain the ability to throw spooky bombs.",
                         "Description": "Monsters of this type gain the ability to throw Pumpkin Bombs. If the monster is badly wounded, it will drop the bomb at their feet. Pumpkin Bombs fly through the air erratically and bounce off of walls. Upon detonating, they explode in a large radius dealing damage. Any entities caught in the blast will become slightly invisible and have their colours changed. Players hit by the bombs will temporarily frighten other monsters, causing them to turn away for 3 seconds. Bosses throw Pumpkin Bombs more frequently."
                     },
                     "Preference": "enable"
@@ -1087,7 +1087,7 @@
                     "Card": {
                         "iD": "MonsterExecutioner",
                         "Name": "Vile Executioner",
-                        "Hint": "# can cast a fire spell on wounded players.",
+                        "Hint": "{species} can cast a fire spell on wounded players.",
                         "Description": "Monsters of this type gain the ability to cast a spell to engluf players in flames if they are at 25 or less health. The spell is almost identical to Doom's Archvile attack, and can be negated by avoiding the monster's line of sight."
                     },
                     "Preference": "enable"
@@ -1096,7 +1096,7 @@
                     "Card": {
                         "iD": "MonsterVileRevenge",
                         "Name": "Vile Vengeance",
-                        "Hint": "# casts a fire spell while dying.",
+                        "Hint": "{species} casts a fire spell while dying.",
                         "Description": "When this type of monster dies, it will cast a spell that englufs players in flames. The spell is almost identical to Doom's Archvile attack, and can be negated by avoiding line of sight of the deceased monster."
                     },
                     "Preference": "enable"
@@ -1105,7 +1105,7 @@
                     "Card": {
                         "iD": "MonsterThrowEggs",
                         "Name": "Mystery Egg Pouch",
-                        "Hint": "# gain the ability to throw eggs that contain ???.",
+                        "Hint": "{species} gain the ability to throw eggs that contain ???.",
                         "Description": "Monsters of this type gain the ability to toss Mystery Eggs at their target. The eggs may contain an item, a monster, an explosive surprise or nothing at all. Thrown eggs bounce around and deal damage to anything they hit before revealing their contents."
                     },
                     "Preference": "enable"
@@ -1114,7 +1114,7 @@
                     "Card": {
                         "iD": "MonsterEnlightenmentVials",
                         "Name": "Enlightenment Powder",
-                        "Hint": "# gain the ability to throw vials that give monsters brief immortality.",
+                        "Hint": "{species} gain the ability to throw vials that give monsters brief immortality.",
                         "Description": "Monsters of this type gain the ability to toss vials of Enlightenment Powder. If the monster is badly wounded, it will drop the vial at their feet. If the vial breaks near a living monster, they will begin to glow for 4 seconds. During this time the monster cannot be killed, but can still be damaged and have its health dropped to 1 point."
                     },
                     "Preference": "enable"
@@ -1123,7 +1123,7 @@
                     "Card": {
                         "iD": "MonsterBigStomach",
                         "Name": "Big Stomach",
-                        "Hint": "# may swallow other monsters to conceal them.",
+                        "Hint": "{species} may swallow other monsters to conceal them.",
                         "Description": "Monsters of this type gain the ability to pull different monsters into their stomach with a stretchy tongue. Monsters that have been eaten are removed from play, until the fed monster is slain. When this happens, all the previously eaten monsters will be spawned back into the level. Returning monsters have their health and stats reverted, as if they were brand new monsters. Monsters with this ability can eat up to 5 monsters, and cannot eat boss monsters."
                     },
                     "Preference": "enable"
@@ -1132,7 +1132,7 @@
                     "Card": {
                         "iD": "MonsterHateShield",
                         "Name": "Hate Shield",
-                        "Hint": "# cannot be damaged by other entities while infighting.",
+                        "Hint": "{species} cannot be damaged by other entities while infighting.",
                         "Description": "While monsters of this type are targetting another monster, they cannot be damaged by other sources. This includes other monsters, players, card effects or the environment. Monsters affected by this card will also be allowed to infight, even if they usually could not."
                     },
                     "Preference": "enable"
@@ -1141,7 +1141,7 @@
                     "Card": {
                         "iD": "SurpriseMutationMonster",
                         "Name": "Alarming Mutation",
-                        "Hint": "# may transform into @ when damaged.",
+                        "Hint": "{species} may transform into {species} when damaged.",
                         "Description": "At the start of the level, several monsters of this type are secretly chosen to have an alarming mutation. These monsters will instantly transform into a different monster once they have lost over half their health. Even if they are instantly killed, they will still transform. Any enchantments or abilities the old monster had are removed, as the new monster completely replaces it."
                     },
                     "Preference": "enable"
@@ -1150,7 +1150,7 @@
                     "Card": {
                         "iD": "MonsterBully",
                         "Name": "Tough Love",
-                        "Hint": "# may shove other players and monsters away.",
+                        "Hint": "{species} may shove other players and monsters away.",
                         "Description": "Monsters of this type will occasionally shove any monsters or players. The victim will be pushed towards the monster's target, but will not recieve damage."
                     },
                     "Preference": "enable"
@@ -1159,7 +1159,7 @@
                     "Card": {
                         "iD": "MonsterBackwards",
                         "Name": "Backwards Compatible",
-                        "Hint": "# always attacks and moves backwards.",
+                        "Hint": "{species} always attacks and moves backwards.",
                         "Description": "Monsters of this type instead move and attack backwards. This card has no effect on the monster's behavior. The monster will still move and attack as normal, but will appear to be facing the opposite direction."
                     },
                     "Preference": "enable"
@@ -1168,7 +1168,7 @@
                     "Card": {
                         "iD": "MonsterRevengeStrike",
                         "Name": "Revenge Strike",
-                        "Hint": "# retaliate once with a @ projectile.",
+                        "Hint": "{species} retaliate once with a {species} projectile.",
                         "Description": "Monsters of this type will retaliate with the selected projectile. The first time a monster is damaged by a player, it will fire the projectile at the player at high speed. This effect can only trigger once per monster affected by this card."
                     },
                     "Preference": "enable"
@@ -1177,7 +1177,7 @@
                     "Card": {
                         "iD": "MonsterPlushPresent",
                         "Name": "Fluffy Gifts",
-                        "Hint": "# may sneak a useless item into your inventory.",
+                        "Hint": "{species} may sneak a useless item into your inventory.",
                         "Description": "Certain monsters of this type will secretly be carrying a Cacodemon Plush toy. When the monster gets close to a player, it adds the toy to the a random weapon slot in the player's inventory. The plush toy can be selected like ordinary weapons, but does nothing. It solely clogs up your weapon slot. To remove it, simply press the fire button to throw it away."
                     },
                     "Preference": "enable"
@@ -1186,7 +1186,7 @@
                     "Card": {
                         "iD": "MonsterBanana",
                         "Name": "Banana",
-                        "Hint": "# may eat a banana to regain health.",
+                        "Hint": "{species} may eat a banana to regain health.",
                         "Description": "Monsters of this type gain the ability to eat a banana. After a monster has taken heavy damage, it may pull out a banana. After a short time, the banana is eaten. The monster regains a large portion of its health, then throws the banana peel on the ground. Players who step on the peel slip in the direction they were moving. If the monster is killed before the banana is eaten, the banana is destroyed. Monsters will occasionally also slip on banana peels."
                     },
                     "Preference": "enable"
@@ -1195,7 +1195,7 @@
                     "Card": {
                         "iD": "MonsterSurgeBombs",
                         "Name": "Surge Bombs",
-                        "Hint": "# gain the ability to throw bombs that speed up nearby entities.",
+                        "Hint": "{species} gain the ability to throw bombs that speed up nearby entities.",
                         "Description": "Monsters of this type gain the ability to throw an electric bomb at their target. The bomb does no damage but instead charges up nearby monsters and players. Monsters caught in the radius will move and attack faster for three seconds, while players have their fire rate increased for one second. Bosses will throw bombs much more frequently."
                     },
                     "Preference": "enable"
@@ -1204,7 +1204,7 @@
                     "Card": {
                         "iD": "MonsterClay",
                         "Name": "Modeling Clay",
-                        "Hint": "# gains the ability to throw a clay ball that becomes a statue.",
+                        "Hint": "{species} gains the ability to throw a clay ball that becomes a statue.",
                         "Description": "Monsters of this type may throw a ball of clay at their target. The clay transforms into a statue of the monster that threw it. Monster can only perform this action once. Monster statues are solid objects that can be pushed around and block entities and projectiles. They are sturdy, but can be destroyed with enough damage or if they drop from a tall height. Enchantment cards affecting monsters may also be applied to monster statues."
                     },
                     "Preference": "enable"
@@ -1213,7 +1213,7 @@
                     "Card": {
                         "iD": "MonsterTransmogrifier",
                         "Name": "Transmogrifier",
-                        "Hint": "# gains the ability to polymorph other monsters.",
+                        "Hint": "{species} gains the ability to polymorph other monsters.",
                         "Description": "Monsters of this type gain the ability to polymorph other monsters into different monsters. The monster will pull out a wand and cast the spell, which slowly travels to its destination monster. If the target monster is still alive, it will be transformed into a new monster. Bosses cannot be transformed. Transformed monsters also have their health set to full and status reset. The transform spell can only be cast once per monster, unless the caster is a boss monster."
                     },
                     "Preference": "enable"
@@ -1222,7 +1222,7 @@
                     "Card": {
                         "iD": "EscapingMonster",
                         "Name": "Void Escape",
-                        "Hint": "# may escape to the next level if in danger.",
+                        "Hint": "{species} may escape to the next level if in danger.",
                         "Description": "Monsters of this type have a chance to teleport to the next level once they are below half health. Monsters will appear at a random location in the next level and will immediately start chasing players. After entering a new level, they cannot escape a second time. Escaping monsters lose any additional properties, curses or enchantments they obtained on the current level."
                     },
                     "Preference": "enable"
@@ -1231,7 +1231,7 @@
                     "Card": {
                         "iD": "MonsterBubble",
                         "Name": "Safety Bubble",
-                        "Hint": "# may create bubbles while in danger. They allow monsters to float.",
+                        "Hint": "{species} may create bubbles while in danger. They allow monsters to float.",
                         "Description": "When this monster has been damaged, it may spawn a bubble for it and two other nearby allies. Monsters will float away inside the bubbles, enabling them to fly around. The monster cannot control the trajectery of the bubble as it bounces around, but allows them to reach areas they normally couldn't. A bubble can be popped if the monster is hit by a single attack. The attack's damage is also nullified, dealing no damage to the monster. Boss monsters with this effect can give out up to 10 bubbles instead."
                     },
                     "Preference": "enable"
@@ -1240,7 +1240,7 @@
                     "Card": {
                         "iD": "SymbiosisMonster",
                         "Name": "Symbiosis",
-                        "Hint": "# may spawn a miniature @ after dying.",
+                        "Hint": "{species} may spawn a miniature {species} after dying.",
                         "Description": "Occasionally when a monster of this type dies, after a few seconds a miniature version of the second monster type is spawned. The miniature monster has half health and deals slightly less damage than normal, but inherit any enchantment effects the monster it spawned from had. If something is blocking the spawning monster, including players, the spawn will fail and no monster will be spawned."
                     },
                     "Preference": "enable"
@@ -1249,7 +1249,7 @@
                     "Card": {
                         "iD": "MonsterReactiveEnchantment",
                         "Name": "Reactive Genes",
-                        "Hint": "All # will gain a specific enchantment to counter players.",
+                        "Hint": "All {species} will gain a specific enchantment to counter players.",
                         "Description": "When monsters of this type in the level are reduced to half, the rest gain a specific enchantment. The enchantment chosen changes depending on how the majority of the monsters slain were killed. Players will be alerted when this happens. The possible enchantments are mostly defensive, and the enchantment is chosen based on various factors including distance from the player and types of damage taken."
                     },
                     "Preference": "enable"
@@ -1258,7 +1258,7 @@
                     "Card": {
                         "iD": "DeathEchoMonster",
                         "Name": "Death Echo",
-                        "Hint": "# spawn two copies on death. The copies immediately take fatal damage.",
+                        "Hint": "{species} spawn two copies on death. The copies immediately take fatal damage.",
                         "Description": "When the chosen monster dies, two monsters of the same type are spawned where the monster dies. After a very short time the new monsters take damage equal to their health, killing the monster. The damage dealt to the new monsters can be prevented by other card effects. This card can only trigger 50 times per map."
                     },
                     "Preference": "enable"
@@ -1267,7 +1267,7 @@
                     "Card": {
                         "iD": "MonsterShield",
                         "Name": "Shield Enchantment",
-                        "Hint": "# have a regenerating shield.",
+                        "Hint": "{species} have a regenerating shield.",
                         "Description": "Monsters of this type will have a regenerating shield. The shield blocks a single instance of damage completely, then is temporarily destroyed. If a monster takes no damage for five seconds, the shield will regenerate. Since the shield can absorb an infinite amount of damage, it is best to use rapid fire weapons to pop the shield instead of using strong slow weapons. The shields ignore monster damage completely, meaning monsters can damage monsters through them. However, the shield cannot be popped by monster damage either."
                     },
                     "Preference": "enable"
@@ -1276,7 +1276,7 @@
                     "Card": {
                         "iD": "AggressiveMonster",
                         "Name": "Aggression Enchantment",
-                        "Hint": "# attack more aggressively.",
+                        "Hint": "{species} attack more aggressively.",
                         "Description": "Monsters of this type will be more aggressive. Aggressive monsters will continuously attack their target if they're in their line of sight, making them much more dangerous. This card has the same effect as Fast Monsters (without the extra speed), thus will not be offered if playing on Nightmare difficulty or with Fast Monsters enabled."
                     },
                     "Preference": "enable"
@@ -1285,7 +1285,7 @@
                     "Card": {
                         "iD": "MonsterInvisibility",
                         "Name": "Invisibility Enchantment",
-                        "Hint": "# are partially invisible.",
+                        "Hint": "{species} are partially invisible.",
                         "Description": "Monsters of this type will be partially invisible. Partially Invisible monsters share the same invisibility as Spectres, making them very difficult to see in dark areas."
                     },
                     "Preference": "enable"
@@ -1294,7 +1294,7 @@
                     "Card": {
                         "iD": "UnflinchingMonster",
                         "Name": "Unflinching Enchantment",
-                        "Hint": "# no longer flinch.",
+                        "Hint": "{species} no longer flinch.",
                         "Description": "Monsters of this type will no longer flinch. A monster with this enchantment will never flinch in pain, making it impossible to interrupt their movement and attacks."
                     },
                     "Preference": "enable"
@@ -1303,7 +1303,7 @@
                     "Card": {
                         "iD": "SilentMonster",
                         "Name": "Silence Enchantment",
-                        "Hint": "# hunt the player in silence.",
+                        "Hint": "{species} hunt the player in silence.",
                         "Description": "Monsters of this type will no longer make certain sounds. Monsters will not make a noise upon seeing the player, hunting the player or attacking. If a monster teleports, their teleport sound will also be muted. Indirect sounds, such as projectiles being thrown, can still be heard."
                     },
                     "Preference": "enable"
@@ -1312,7 +1312,7 @@
                     "Card": {
                         "iD": "MonsterFlight",
                         "Name": "Flight Enchantment",
-                        "Hint": "# are able to fly.",
+                        "Hint": "{species} are able to fly.",
                         "Description": "Monsters of this type can fly. Flying monsters can adjust their vertical position at will, and will often be able to reach players from places they usually wouldn't be able to."
                     },
                     "Preference": "enable"
@@ -1321,7 +1321,7 @@
                     "Card": {
                         "iD": "NinjaMonster",
                         "Name": "Evasion Enchantment",
-                        "Hint": "# will try to dodge your attacks.",
+                        "Hint": "{species} will try to dodge your attacks.",
                         "Description": "Monsters of this type will dodge to the left or right. If a monster's target is looking at them directly, they may execute a dodge maneuver. They will also try to dodge after taking damage. Monsters do not negate damage this way, and cannot dodge more than every second. Dodging monsters can move through objects, including other monsters and the player."
                     },
                     "Preference": "enable"
@@ -1330,7 +1330,7 @@
                     "Card": {
                         "iD": "MonsterSpeed",
                         "Name": "Swiftness Enchantment",
-                        "Hint": "# have increased movement speed.",
+                        "Hint": "{species} have increased movement speed.",
                         "Description": "Monsters of this type will move faster. Monsters affected by this enchantment will walk or fly almost twice as fast. This enchantment stacks with monsters that move faster when Fast Monsters is applied to them."
                     },
                     "Preference": "enable"
@@ -1339,7 +1339,7 @@
                     "Card": {
                         "iD": "MonsterReverseGravity",
                         "Name": "Gravity Enchantment",
-                        "Hint": "# can invert its gravity.",
+                        "Hint": "{species} can invert its gravity.",
                         "Description": "Monsters of this type can invert their gravity at will, allowing them to walk on ceilings. Monsters will flip their gravity randomly while this enchantment is active, making them very unpredictable. This enchantment also allows monsters to walk off of edges, even when their gravity is normal."
                     },
                     "Preference": "enable"
@@ -1348,7 +1348,7 @@
                     "Card": {
                         "iD": "WoundedMonsterPower",
                         "Name": "Blood Fury Enchantment",
-                        "Hint": "# deal extra damage if wounded.",
+                        "Hint": "{species} deal extra damage if wounded.",
                         "Description": "Monsters of this type will deal more damage while wounded. The damage dealt is increased slightly with each missing quarter of the monster's base health, up to a maximum of double damage. The more damage the monster is capable of, the more red sparks appear around the monster."
                     },
                     "Preference": "enable"
@@ -1357,7 +1357,7 @@
                     "Card": {
                         "iD": "MonsterGhost",
                         "Name": "Haunting Enchantment",
-                        "Hint": "# haunt players briefly after death.",
+                        "Hint": "{species} haunt players briefly after death.",
                         "Description": "Monsters of this type will sometimes become a ghost after dying. Ghost monsters retain all the abilities of the monster that died and immediately start chasing the player. Ghosts move slower and have half the health of the original monster, but can walk through walls and objects to reach their target. Ghosts will eventually fade out of existence. Running away from them can be a viable strategy to conserve ammo."
                     },
                     "Preference": "enable"
@@ -1366,7 +1366,7 @@
                     "Card": {
                         "iD": "MonsterCannibal",
                         "Name": "Cannibalism Enchantment",
-                        "Hint": "# consume corpses to gain extra health.",
+                        "Hint": "{species} consume corpses to gain extra health.",
                         "Description": "Monsters of this type will devour any nearby dead monsters and gain extra health. The amount of health a monster gains is 75% of the consumed monster's original health, making it possible for monsters with small amounts of health to become much stronger. After consuming a corpse, the monster must wait a brief time before consuming another and cannot consume more than 4 corpses in total. Devoured corpses are completely removed from the game."
                     },
                     "Preference": "enable"
@@ -1375,7 +1375,7 @@
                     "Card": {
                         "iD": "MonsterStoneDeath",
                         "Name": "Petrification Enchantment",
-                        "Hint": "# turn to stone on death.",
+                        "Hint": "{species} turn to stone on death.",
                         "Description": "Monsters of this type will turn to stone on death. When a monster turns to stone, it doesn't leave a corpse or drop any items it usually would. Cards that trigger when a monster dies will still affect this monster. Stone monsters will block other objects and projectiles, and will be destroyed after taking enough damage. They can be pushed around by bumping into them, and break if they fall too far. Enchantment cards affecting the monster may also be applied to the monster statue."
                     },
                     "Preference": "enable"
@@ -1384,7 +1384,7 @@
                     "Card": {
                         "iD": "MonsterTeleporter",
                         "Name": "Eject Enchantment",
-                        "Hint": "# may teleport away if in danger.",
+                        "Hint": "{species} may teleport away if in danger.",
                         "Description": "Monsters of this type have a chance to teleport to a new random location in the level once they are below half health. After teleporting, the monster will immediately chase a random player if it was not already. If the monster is damaged again after it has already teleported, it will be able to teleport again. Monsters can only teleport once every 40 seconds."
                     },
                     "Preference": "enable"
@@ -1393,7 +1393,7 @@
                     "Card": {
                         "iD": "MonsterBorrowedTime",
                         "Name": "Borrowed Time Enchantment",
-                        "Hint": "# receive damage one second later.",
+                        "Hint": "{species} receive damage one second later.",
                         "Description": "Any damage dealt to this type of monster will be delayed. When something would usually deal damage to the monster, a second will pass before the monster actually receive the damage. This grants them a brief period of \"invulnerability\". Most damage will be delayed, however some special weapons and damage sources such as telefragging may ignore this enchantment."
                     },
                     "Preference": "enable"
@@ -1402,7 +1402,7 @@
                     "Card": {
                         "iD": "MonsterFeatherweight",
                         "Name": "Feather Enchantment",
-                        "Hint": "# fly back further when damaged.",
+                        "Hint": "{species} fly back further when damaged.",
                         "Description": "Monsters with this enchantment are weightless, and are sent flying when even the smallest of damage is dealt to them. Monsters may also temporarily pass through other entities when pushed into other monsters, players or objects."
                     },
                     "Preference": "enable"
@@ -1411,7 +1411,7 @@
                     "Card": {
                         "iD": "MonsterPursuit",
                         "Name": "Pursuit Enchantment",
-                        "Hint": "# may teleport to pursue players.",
+                        "Hint": "{species} may teleport to pursue players.",
                         "Description": "Monsters of this type will gain the ability to reposition themselves near players. Monsters will only teleport if their target is out of range and only if they have seen the player at least once. This enchantment can only trigger every few seconds per player."
                     },
                     "Preference": "enable"
@@ -1420,7 +1420,7 @@
                     "Card": {
                         "iD": "MonsterShockwaves",
                         "Name": "Shockwave Enchantment",
-                        "Hint": "# shoves nearby entities away on death.",
+                        "Hint": "{species} shoves nearby entities away on death.",
                         "Description": "Monsters of this type will create a large shock wave when it dies. Shockwaves push nearby monsters, items, players and other shootable objects away from the dying monster. Shock waves cover a large radius, and even travel through walls."
                     },
                     "Preference": "enable"
@@ -1429,7 +1429,7 @@
                     "Card": {
                         "iD": "MonsterIcyTread",
                         "Name": "Slide Enchantment",
-                        "Hint": "# slide around while moving.",
+                        "Hint": "{species} slide around while moving.",
                         "Description": "Monsters of this type will slide around while moving. The monster will move around uncontrollably as if it were skidding on ice. This will allow the monster to fall off of ledges and dodge unpredictably."
                     },
                     "Preference": "enable"
@@ -1438,7 +1438,7 @@
                     "Card": {
                         "iD": "MonsterAdrenaline",
                         "Name": "Adrenaline Enchantment",
-                        "Hint": "# moves and attacks faster at low health.",
+                        "Hint": "{species} moves and attacks faster at low health.",
                         "Description": "Monsters of this type will move, act and attack much faster at lower health. A sound will play once the monster has activated their adrenaline. When the monster is critically wounded, the adrenaline gets even more potent, allowing the monster to move and attack even faster."
                     },
                     "Preference": "enable"
@@ -1447,7 +1447,7 @@
                     "Card": {
                         "iD": "MonsterThinner",
                         "Name": "Slimming Enchantment",
-                        "Hint": "# become thinner.",
+                        "Hint": "{species} become thinner.",
                         "Description": "Monsters of this type will become slim. Slimmed monsters have their hitbox radius reduced, making them harder to hit. This may also allow them to move to places they usually wouldn't be able to."
                     },
                     "Preference": "enable"
@@ -1456,7 +1456,7 @@
                     "Card": {
                         "iD": "MonsterIllusionist",
                         "Name": "Illusionist Enchantment",
-                        "Hint": "# may throw out 3 harmless illusions.",
+                        "Hint": "{species} may throw out 3 harmless illusions.",
                         "Description": "Monsters of this type have a chance to burst into 3 illusions upon reaching half health. The monster and its illusions will be thrust in different directions, making it not immediately apparent which one is the real monster. Illusions appear and act identical to regular monsters (and are even effected by other cards), but deal no damage to players. They are removed upon taking any player damage, do not trigger any death effects or leave a corpse. Though they cannot deal direct damage to players, they can still cause trouble in other ways... especially if they summon or resurrect enemies!"
                     },
                     "Preference": "enable"
@@ -1465,7 +1465,7 @@
                     "Card": {
                         "iD": "MonsterFireCracker",
                         "Name": "Firecracker Enchantment",
-                        "Hint": "# explode several times shortly after dying.",
+                        "Hint": "{species} explode several times shortly after dying.",
                         "Description": "When a monster of this type is slain, a fuse will light and begin burning down. Once the fuse runs out, the monster's corpse will explode several times, dealing damage to both monsters and players. If a monster with this enchantment dies to an explosion caused by a another Firecracker Enchantment, their fuse will not be lit and instead immediately start exploding. The amount of explosions is determined by the monster's maximum health."
                     },
                     "Preference": "enable"
@@ -1474,7 +1474,7 @@
                     "Card": {
                         "iD": "MonsterRampart",
                         "Name": "Rampart Enchantment",
-                        "Hint": "# takes less damage at long range.",
+                        "Hint": "{species} takes less damage at long range.",
                         "Description": "Monsters of this type take less damage at long range. If the damage dealer is far enough to trigger the enchantment, a shield effect will appear on the monster, showing that it had the damage reduced."
                     },
                     "Preference": "enable"
@@ -1483,7 +1483,7 @@
                     "Card": {
                         "iD": "MonsterNightPhase",
                         "Name": "Nightphase Enchantment",
-                        "Hint": "# are invisible but leave a shadowy trail.",
+                        "Hint": "{species} are invisible but leave a shadowy trail.",
                         "Description": "Monsters of this type are rendered completely invisible, but leave a shadowy trail behind them. The trail will mimic the monster's actions with a second delay, making it harder to pinpoint the monster's exact location."
                     },
                     "Preference": "enable"
@@ -1492,7 +1492,7 @@
                     "Card": {
                         "iD": "MonsterLastBreath",
                         "Name": "Last Breath Enchantment",
-                        "Hint": "# have a chance to prevent lethal damage once.",
+                        "Hint": "{species} have a chance to prevent lethal damage once.",
                         "Description": "When a monster of this type would take lethal damage, it has a 1 in 3 chance to ignore the damage completely. If the enchantment triggers, it can no longer trigger again unless the monster is resurrected after it dies."
                     },
                     "Preference": "enable"
@@ -1501,7 +1501,7 @@
                     "Card": {
                         "iD": "MonsterBerserker",
                         "Name": "Berserker Enchantment",
-                        "Hint": "# deals double damage at close range.",
+                        "Hint": "{species} deals double damage at close range.",
                         "Description": "Monsters of this type deal double damage at close range. Any attack type will deal twice as much damage. Sparks will appear above the monster when their current target is in range of the enchantment effect."
                     },
                     "Preference": "enable"
@@ -1510,7 +1510,7 @@
                     "Card": {
                         "iD": "MonsterFrenzy",
                         "Name": "Frenzy Enchantment",
-                        "Hint": "# will move and attack faster briefly after seeing its target.",
+                        "Hint": "{species} will move and attack faster briefly after seeing its target.",
                         "Description": "When a monster first lays eyes upon its target, it will have its animation speed doubled for very short time. The monster will move and attack much faster during this time, and may be able to attack multiple times. If the monster changes its target via infighting, or is killed and resurrected, it can trigger this enchantment again."
                     },
                     "Preference": "enable"
@@ -1519,7 +1519,7 @@
                     "Card": {
                         "iD": "MonsterFastProjectiles",
                         "Name": "Launch Augment",
-                        "Hint": "# projectiles travel twice as fast.",
+                        "Hint": "{species} projectiles travel twice as fast.",
                         "Description": "Causes a monster's projectiles to travel twice as fast. Seeker projectiles are not affected by this card."
                     },
                     "Preference": "enable"
@@ -1528,7 +1528,7 @@
                     "Card": {
                         "iD": "MonsterArmorPiercingProjectiles",
                         "Name": "Piercing Augment",
-                        "Hint": "# projectiles ignore armor.",
+                        "Hint": "{species} projectiles ignore armor.",
                         "Description": "Causes a monster's projectiles to pierce armor. Armor piercing projectiles ignore player's armor entirely, dealing full damage as if weren't there. The armor itself is not damaged by these projectiles."
                     },
                     "Preference": "enable"
@@ -1537,7 +1537,7 @@
                     "Card": {
                         "iD": "MonsterInvisibleProjectiles",
                         "Name": "Shrouded Augment",
-                        "Hint": "# projectiles are partially invisible.",
+                        "Hint": "{species} projectiles are partially invisible.",
                         "Description": "Causes a monster's projectiles to be partially invisible. Only the core projectile is invisible. Any additional effects spawned by this projectile will not be partially invisible."
                     },
                     "Preference": "enable"
@@ -1546,7 +1546,7 @@
                     "Card": {
                         "iD": "MonsterInvertKnockback",
                         "Name": "Vacuum Augment",
-                        "Hint": "#'s damage knockback is reversed.",
+                        "Hint": "{species}'s damage knockback is reversed.",
                         "Description": "Monsters of this type have their knockback physics reversed. If an entity is damaged by this monster, it will be pushed towards the monster instead of away from it. The inverted damage knockback is also increased slightly."
                     },
                     "Preference": "enable"
@@ -1555,7 +1555,7 @@
                     "Card": {
                         "iD": "MonsterBounceProjectiles",
                         "Name": "Rubber Augment",
-                        "Hint": "# projectiles bounce off of walls.",
+                        "Hint": "{species} projectiles bounce off of walls.",
                         "Description": "Causes a monster's projectiles to bounce off of walls. Projectiles will bounce off a wall a single time, and will not bounce off of ceilings and floors. If a projectile already had bouncing properties, the amount of bounces is increased by one."
                     },
                     "Preference": "enable"
@@ -1564,7 +1564,7 @@
                     "Card": {
                         "iD": "MonsterTripleProjectiles",
                         "Name": "Triple Augment",
-                        "Hint": "# fire a spread of 3 projectiles.",
+                        "Hint": "{species} fire a spread of 3 projectiles.",
                         "Description": "Causes a monster to fire two extra copies of its projectile at different angles. The projectiles are fired at 35 degrees to the left and right of the monster. Certain special attacks may not be affected by this card."
                     },
                     "Preference": "enable"
@@ -1573,7 +1573,7 @@
                     "Card": {
                         "iD": "MonsterSeekers",
                         "Name": "Seeker Augment",
-                        "Hint": "# projectiles are seekers.",
+                        "Hint": "{species} projectiles are seekers.",
                         "Description": "Gives a monster's projectiles the ability to home in on targets. Much like Revenant missiles, their homing ability is fairly limited and they can be guided into walls by a skillful player. If the projectile fired was already a seeker, the homing ability is amplified instead."
                     },
                     "Preference": "enable"
@@ -1582,7 +1582,7 @@
                     "Card": {
                         "iD": "MonsterWeavingProjectiles",
                         "Name": "Weave Augment",
-                        "Hint": "# projectiles weave back and forth.",
+                        "Hint": "{species} projectiles weave back and forth.",
                         "Description": "Causes a monster's projectiles to weave back and forth while traveling. Projectiles fired by this monster will start to weave back and forth in large arcs, making them difficult to predict and dodge. Projectiles will not start weaving until there is enough space to do so, however."
                     },
                     "Preference": "enable"
@@ -1591,7 +1591,7 @@
                     "Card": {
                         "iD": "MonsterKnockback",
                         "Name": "Heavy Augment",
-                        "Hint": "# projectiles have massive knockback.",
+                        "Hint": "{species} projectiles have massive knockback.",
                         "Description": "Makes a monster's projectile have massive amounts of knockback. Players, monsters or anything shootable is affected by the knockback."
                     },
                     "Preference": "enable"
@@ -1600,7 +1600,7 @@
                     "Card": {
                         "iD": "MonsterVolley",
                         "Name": "Repeat Augment",
-                        "Hint": "# throws a chain of 3 projectiles.",
+                        "Hint": "{species} throws a chain of 3 projectiles.",
                         "Description": "Causes a monster to fire three projectiles in a quick succession. If a monster fires multiple projectiles at the exact same time, only one of those projectiles will be fired this way."
                     },
                     "Preference": "enable"
@@ -1609,7 +1609,7 @@
                     "Card": {
                         "iD": "MonsterHitscan",
                         "Name": "Bullet Augment",
-                        "Hint": "# fire bullets instead.",
+                        "Hint": "{species} fire bullets instead.",
                         "Description": "Replaces a monster's projectile's with bullets. The power of these hitscan attacks scale with the monster's base health. The stronger the monster, the more bullets are fired. Certain special attacks may not be changed into bullets."
                     },
                     "Preference": "enable"
@@ -1618,7 +1618,7 @@
                     "Card": {
                         "iD": "MonsterRailgun",
                         "Name": "Railgun Augment",
-                        "Hint": "# fire a Railgun instead.",
+                        "Hint": "{species} fire a Railgun instead.",
                         "Description": "Replaces a monster's projectiles with a Railgun attack. The power of the monster's Railgun scale with the monster's base health. The stronger the monster, the more damage the Railgun does. Certain special attacks may not be changed into Railgun attacks."
                     },
                     "Preference": "enable"
@@ -1627,7 +1627,7 @@
                     "Card": {
                         "iD": "MonsterExplodingProjectiles",
                         "Name": "Explosives Augment",
-                        "Hint": "# projectiles explode on impact.",
+                        "Hint": "{species} projectiles explode on impact.",
                         "Description": "Causes a monster's projectiles to explode on impact. All projectiles fired by this monster cause an explosion that deals damage to anything nearby. The monster itself and monsters of the same type are not damaged by these explosions. The damage and radius of the explosion is dependent on the projectile's base damage."
                     },
                     "Preference": "enable"
@@ -1636,7 +1636,7 @@
                     "Card": {
                         "iD": "MonsterWideShot",
                         "Name": "Wide Augment",
-                        "Hint": "# fire 3 projectiles in a line.",
+                        "Hint": "{species} fire 3 projectiles in a line.",
                         "Description": "Causes a monster to fire two extra copies of its projectile at the left and right sides of the original. The projectiles are fired at the same angle and speed, and are close enough to each other to make dodging in between impossible. Certain special attacks may not be affected by this card."
                     },
                     "Preference": "enable"
@@ -1645,7 +1645,7 @@
                     "Card": {
                         "iD": "Monster3rdStrike",
                         "Name": "Third Strike Augment",
-                        "Hint": "Every third # projectile is extremely fast.",
+                        "Hint": "Every third {species} projectile is extremely fast.",
                         "Description": "On every third attack, this monster type will fire its projectile(s) at quadruple speed. An effect trail will appear behind the projectile to show its velocity has been increased."
                     },
                     "Preference": "enable"
@@ -1654,7 +1654,7 @@
                     "Card": {
                         "iD": "EnchantedShotsMonster",
                         "Name": "Enchanting Augment",
-                        "Hint": "# give a random enchantment to any monsters they damage.",
+                        "Hint": "{species} give a random enchantment to any monsters they damage.",
                         "Description": "When monsters of this type would deal damage to another monster by via an attack or card effect, they instead give the monster an enchantment. Each individual monster affected by this card can only give out one enchantment type. Any damage dealt is also negated, unless they are currently targetting the monster that was hit."
                     },
                     "Preference": "enable"
@@ -1663,7 +1663,7 @@
                     "Card": {
                         "iD": "MonsterHotShot",
                         "Name": "Trickshot Augment",
-                        "Hint": "# may adjust their aim for moving targets.",
+                        "Hint": "{species} may adjust their aim for moving targets.",
                         "Description": "Monsters of this type will occasionally adjust their aim to try and hit moving targets better. Every few projectiles this monster fires will be aimed towards where their target is moving to try and intercept them. If the target is too close to the monster, it will be fired as normal."
                     },
                     "Preference": "enable"
@@ -1672,7 +1672,7 @@
                     "Card": {
                         "iD": "MonsterLaggyProjectiles",
                         "Name": "Zandronum Augment",
-                        "Hint": "# projectiles may freeze mid-air.",
+                        "Hint": "{species} projectiles may freeze mid-air.",
                         "Description": "This monster's projectiles will randomly stop and stutter in mid air. The affected projectiles can still interact and damage objects while stuck in the air, and will resume travel after a short time."
                     },
                     "Preference": "enable"
@@ -1681,7 +1681,7 @@
                     "Card": {
                         "iD": "MonsterChaosProjectiles",
                         "Name": "Chaos Augment",
-                        "Hint": "# fires random monster projectiles instead.",
+                        "Hint": "{species} fires random monster projectiles instead.",
                         "Description": "When a monster of this type would fire its projectile, it will be replaced with a different random projectile. A different projectile is chosen each time."
                     },
                     "Preference": "enable"
@@ -1690,7 +1690,7 @@
                     "Card": {
                         "iD": "MonsterPhaseProjectiles",
                         "Name": "Phase Augment",
-                        "Hint": "# projectiles may phase through walls and entities.",
+                        "Hint": "{species} projectiles may phase through walls and entities.",
                         "Description": "Causes a monsters projectiles to occasionally phase through walls and entities. When a projectile is thrown by the monster it has a chance to become a phasing projectile. A phasing projectile will not collide with anything until it is close to the monster's target. Phasing projectiles can be identified by their purple trail."
                     },
                     "Preference": "enable"
@@ -1699,7 +1699,7 @@
                     "Card": {
                         "iD": "MonsterBFG",
                         "Name": "BFG Augment",
-                        "Hint": "# fires a BFG9000 instead.",
+                        "Hint": "{species} fires a BFG9000 instead.",
                         "Description": "Replaces a monster's projectiles with a BFG9000 projectile. After a short charge time the BFG ball is fired, devastating anything foolish enough to stand in the way. The BFG behaves exactly the same as Doom's BFG, firing damaging tracers from the monster's origin once the BFG ball explodes."
                     },
                     "Preference": "enable"
@@ -1708,7 +1708,7 @@
                     "Card": {
                         "iD": "ProjectileReplacer",
                         "Name": "Weapon Augment",
-                        "Hint": "# fires @ projectiles instead.",
+                        "Hint": "{species} fires {species} projectiles instead.",
                         "Description": "Replaces a monster's projectile attack with another. Whenever a monster would fire a projectile, it will fire the new one specified by the card instead. Even if the monster originally fired 3 different projectiles, they will all be replaced with the new one. Certain special attacks may not be replaced."
                     },
                     "Preference": "enable"
@@ -1717,7 +1717,7 @@
                     "Card": {
                         "iD": "MonsterNewProjectile",
                         "Name": "Upgrade Augment",
-                        "Hint": "Each # fire a different monster's projectiles.",
+                        "Hint": "Each {species} fire a different monster's projectiles.",
                         "Description": "Every monster of this type will attack with a stronger monster's projectiles. Whenever a monster would fire a projectile, it will fire a different monster's projectile. Even if the monster originally fired 3 different projectiles, they will all be replaced with the new one. If there are multiple monster types to choose from that have stronger attacks, each monster will be assigned a different one at the start of the level. Certain special attacks may not be replaced."
                     },
                     "Preference": "enable"
@@ -1744,7 +1744,7 @@
                     "Card": {
                         "iD": "DuplicateCard",
                         "Name": "The Duplicard",
-                        "Hint": "Add 4 more copies of # to the game.",
+                        "Hint": "Add 4 more copies of {species} to the game.",
                         "Description": "When offered to the player, this card choses one of the active permanent cards to duplicate. If it is chosen, it creates four more copies of the card and adds them to the active collection of cards permanently. Only cards with effects that are able to be stacked can be selected for this card's effect."
                     },
                     "Preference": "enable"
@@ -2028,7 +2028,7 @@
                     "Card": {
                         "iD": "MonsterThief",
                         "Name": "Kleptomania",
-                        "Hint": "# will steal items off the ground.",
+                        "Hint": "{species} will steal items off the ground.",
                         "Description": "Monsters of this type will steal items off the ground. Stolen items will be carried by the monster until they are slain. Often seen as a blessing when monsters \"deliver\" items to you, can be a curse if a monster steals an important item behind an impassible barrier. At the start of the level, monsters preemptively steal items much further away from them, claiming items from secrets and other areas they would not normally reach. Items such as keys cannot be stolen."
                     },
                     "Preference": "disable"
@@ -2037,7 +2037,7 @@
                     "Card": {
                         "iD": "MonsterSentry",
                         "Name": "Casali's Watchers",
-                        "Hint": "# may become an immobile, self-resurrecting sentry.",
+                        "Hint": "{species} may become an immobile, self-resurrecting sentry.",
                         "Description": "Monsters of this type have a chance to be a sentry. Four skulls will appear around the monster to signify they have become a sentry. Sentries will resurrect themselves almost immediately after dying, becoming an immortal threat. However, they cannot move from their position at all. Sentries do not block players or other monsters, and do not count towards the total kills after being resurrected. They will however trigger any other resurrection and death effects."
                     },
                     "Preference": "disable"
@@ -2046,7 +2046,7 @@
                     "Card": {
                         "iD": "MonsterForbiddenGaze",
                         "Name": "Forbidden Gaze",
-                        "Hint": "Looking at # for too long burns the player.",
+                        "Hint": "Looking at {species} for too long burns the player.",
                         "Description": "Monsters of this type become forbbiden to look at by players. If a player stares at a forbidden monster for more than a second or so, they will ignite and begin to take damage. The damage dealt increases the longer the player stares at the monster. Simply looking away ends the effect and resets the damage. Looking at a different monster of the same type will continue to burn the player however."
                     },
                     "Preference": "disable"
@@ -2055,7 +2055,7 @@
                     "Card": {
                         "iD": "VesselMonster",
                         "Name": "Living Vessel",
-                        "Hint": "# spawns 3 @ when killed.",
+                        "Hint": "{species} spawns 3 {species} when killed.",
                         "Description": "When this monster dies, 3 of the specified monster will spawn where it died. The monsters spawned are thrown in 3 directions and if killed by the player, immediately face them. Should the spawned monster also happen to have a card with this effect, they cannot then spawn monsters this way after dying. This card can only trigger 50 times per map."
                     },
                     "Preference": "disable"
@@ -2064,7 +2064,7 @@
                     "Card": {
                         "iD": "MonsterNoxiousBomb",
                         "Name": "Noxious Vials",
-                        "Hint": "# gain the ability to throw poison gas vials.",
+                        "Hint": "{species} gain the ability to throw poison gas vials.",
                         "Description": "Monsters of this type gain the ability to toss vials of deadly poison at their target. If the monster is badly wounded, it will drop the vial at their feet. The vials expell a deadly gas upon hitting a surface, which lingers for a few seconds before disappearing. Players will take damage over time if they remain in the gas. Powerups that usually protect from nukage will not protect players from this type of gas. Bosses throw vials much more frequently."
                     },
                     "Preference": "disable"
@@ -2073,7 +2073,7 @@
                     "Card": {
                         "iD": "MonsterMaxDamage",
                         "Name": "Barbarity",
-                        "Hint": "# always deal the highest damage they've ever dealt.",
+                        "Hint": "{species} always deal the highest damage they've ever dealt.",
                         "Description": "When this monster deals damage, it will always deal the highest amount its type has ever dealt (to a monster or player) in this level. If the monster has multiple attack types, it will still deal the highest damage possible. The highest damage recorded for each monster is reset after each level."
                     },
                     "Preference": "disable"
@@ -2082,7 +2082,7 @@
                     "Card": {
                         "iD": "ReflectiveMonster",
                         "Name": "Reflect Enchantment",
-                        "Hint": "# reflect projectiles back at you.",
+                        "Hint": "{species} reflect projectiles back at you.",
                         "Description": "Monsters of this type will reflect projectiles. Reflected projectiles will be thrown back at the target at half of the original projectile's speed and damage, making strong projectile weapons dangerous against these monsters. However, monsters will still take full damage from the projectile even if they are reflected. Projectiles from other monsters will also be reflected back, making them much better at infighting."
                     },
                     "Preference": "disable"
@@ -2091,7 +2091,7 @@
                     "Card": {
                         "iD": "MonsterAcidBlood",
                         "Name": "Acid Blood Enchantment",
-                        "Hint": "# bleeds lethal acid.",
+                        "Hint": "{species} bleeds lethal acid.",
                         "Description": "Monsters of this type will spew acid blood upon taking damage. The amount and speed of the acid is dependent on the amount of damage the monster receives in a single attack. Every instance of damage causes an acid spray, making shotguns very dangerous to use against these monsters. Monsters are completely immune to this acid."
                     },
                     "Preference": "disable"
@@ -2100,7 +2100,7 @@
                     "Card": {
                         "iD": "MonsterLeaping",
                         "Name": "Leap Enchantment",
-                        "Hint": "# can leap at their prey.",
+                        "Hint": "{species} can leap at their prey.",
                         "Description": "Monsters of this type gain the ability to leap at their target. Monsters will occasionally try to leap at their current target if it is far away from them, allowing them to reach places they normally wouldn't be able to and catch players off guard. Monsters will only use this ability if they are on the floor and can currently see their target. If the monster can fly, it may dash towards the player while in the air."
                     },
                     "Preference": "disable"
@@ -2109,7 +2109,7 @@
                     "Card": {
                         "iD": "MonsterHighVoltage",
                         "Name": "High Voltage Enchantment",
-                        "Hint": "# will electrocute nearby players.",
+                        "Hint": "{species} will electrocute nearby players.",
                         "Description": "Monsters of this type will shock nearby players with a stream of electricity. If a player gets too close to a monster with this enchantment, they will start losing health rapidly. Players must get out of range or kill the monster to avoid being shocked. The electricity damage does not stack with other nearby monsters with this enchantment. Larger monsters can shock players further away from their center."
                     },
                     "Preference": "disable"
@@ -2118,7 +2118,7 @@
                     "Card": {
                         "iD": "MonsterInfestation",
                         "Name": "Infestation Enchantment",
-                        "Hint": "Exploding critters may hide inside # corpses.",
+                        "Hint": "Exploding critters may hide inside {species} corpses.",
                         "Description": "Monsters of this type have a chance to be infested with exploding critters. Upon approaching an infested corpse, the critters will leap out and attack. Exploding critters scurry around searching for players. They attack by leaping at their prey and exploding. critters can be killed and are classed as monsters, but do not effect the kill count. Stronger monsters have even more critters hididng inside them."
                     },
                     "Preference": "disable"
@@ -2127,7 +2127,7 @@
                     "Card": {
                         "iD": "MonsterBombardment",
                         "Name": "Bombardment Augment",
-                        "Hint": "# continuously throw projectiles.",
+                        "Hint": "{species} continuously throw projectiles.",
                         "Description": "Every monster of this type will continuously throw its projectile at the player. After the monster has seen the player once, it will keep throwing projectiles at a steady rate, even if it can no longer see its target. If a player is not the monster's current target, they will cease the bombardment. This augment stacks with other augments, allowing new attacks to be used as a bombardment."
                     },
                     "Preference": "disable"
@@ -2136,7 +2136,7 @@
                     "Card": {
                         "iD": "MonsterShockProjectiles",
                         "Name": "Electric Augment",
-                        "Hint": "# projectiles electrocute nearby players.",
+                        "Hint": "{species} projectiles electrocute nearby players.",
                         "Description": "Monsters of this type throw projectiles that are electrified. If a player gets too close to an electrified projectile, they will start losing health rapidly. Players must get out of range of the projectile to avoid being shocked. The electricity damage does not stack with other electrified projectiles."
                     },
                     "Preference": "disable"
@@ -2258,7 +2258,7 @@
                     "Card": {
                         "iD": "EyeSentryTraps",
                         "Name": "Wrath Sentries",
-                        "Hint": "Add several sentries that fire # projectiles.",
+                        "Hint": "Add several sentries that fire {species} projectiles.",
                         "Description": "Add several sentries to the level that fire the specified projectile. These sentries spawn on random walls in the level and often appear near the ceiling. While a player is in their sight, the eye will open and begin firing projectiles at them. They will cease firing if a player is behind cover. Wrath sentries cannot be destroyed but can be briefly stunned if hit by a player or monster. The number of Wrath Sentries is dependent on the amount of monsters in the map, but is limited to 15 (for every copy of this card)."
                     },
                     "Preference": "bookmark"
@@ -2285,7 +2285,7 @@
                     "Card": {
                         "iD": "MonsterFrankenstein",
                         "Name": "Frankenstein's Gift",
-                        "Hint": "# can stitch together two corpses to make a new monster.",
+                        "Hint": "{species} can stitch together two corpses to make a new monster.",
                         "Description": "Monsters of this type can combine two dead monsters into one new living creature. They can only perform this operation 3 times, and can only combine monsters of different types. Certain monsters such as bosses cannot be stitched together this way. The new creature inherits certain traits, physics and enchantments from the original monsters. It will also have the best speed and health from the two subjects. Once the combined creature dies it cannot be used by another Frankenstein ability."
                     },
                     "Preference": "bookmark"
