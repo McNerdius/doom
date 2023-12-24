@@ -14,7 +14,7 @@ Avoiding:
   - Special "achievement" style or other cards that can by themselves make gameplay grindy or annoying.
   - Progress-inhibiting or reversing cards.
 
-Just load the [`BigMacDeck-*.pk3`](BigMacDeck-5.4.pk3) after the Corruption Cards PK3 and the deck will be presented along with the defaults:
+Just load the [`BigMacDeck-*.pk3`](BigMacDeck-5.4.pk3) (right click to "Save As") after the Corruption Cards PK3 and the deck will be presented along with the defaults:
 
 ![ZDL](ZDL.png)
 
