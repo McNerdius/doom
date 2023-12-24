@@ -1,5 +1,4 @@
-			              BIGMACDECK
-			              ----------
+# BIGMACDECK
 
 A large, streaming-friendly deck for [Corruption Cards](https://forum.zdoom.org/viewtopic.php?t=67939).
 
