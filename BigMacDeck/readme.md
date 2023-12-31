@@ -9,7 +9,7 @@ Card removal criteria:
   - Potentially map- or run-breaking: making 100% item/kill count impossible, out-of-bounds issues, interfering with advanced map techniques, etc.
   - Significant/disproportionate alteration of gameplay, such as "The Ancient One".
   - Adding hostility to the environment in ways that are likely to block progress or eliminate a mapper's intended "safe zones."
-  - Reversing or preventing progress due to large or ongoing ressurections.
+  - Reversing or preventing progress due to large or ongoing ressurections/spawns.
 
 Just load the [`BigMacDeck-*.pk3`](BigMacDeck-5.4.pk3) (right click to "Save As") after the Corruption Cards PK3 and the deck will be presented along with the defaults:
 
