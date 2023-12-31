@@ -21,7 +21,10 @@ Voila:
 
 # Unsolicited Opinions
 
-This deck disables difficulty progression by default, but custom mode settings can override this.  Disabling it ensures maximum variety in card selection.  IMO, variety is what makes Corruption Cards great.  For this same reason i use custom mode to offer eight cards:
+IMO, variety is what makes Corruption Cards great.  In addition to using a large deck, one can:
+
+- Disable difficulty progression keeps lower tier cards in play throughout the playthrough.  (This deck disables difficulty progression by default, but custom mode settings can override this.)
+- Use custom mode to offer eight cards:
 
 ![CC-Settings-2](CC-Settings-2.png)
 
