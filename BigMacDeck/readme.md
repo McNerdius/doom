@@ -6,7 +6,7 @@
 A large, streaming-friendly deck for [Corruption Cards](https://forum.zdoom.org/viewtopic.php?t=67939).  It disables 58 cards (see below [below](#disabled-cards) for a listing and notes), leaving 197 in play - double the default "Balanced" deck.
 
 Card removal criteria:
-  - Potentially map- or run-breaking: making 100% item/kill count impossible, out-of-bounds issues, interfering with advanced map techniques, etc.
+  - Potentially map- or run-breaking: making 100% item/kill count impossible, out-of-bounds issues, interfering with advanced mapping techniques, etc.
   - Significant/disproportionate alteration of gameplay, such as "The Ancient One".
   - Adding hostility to the environment in ways that are likely to block progress or eliminate a mapper's intended "safe zones."
   - Reversing or preventing progress due to large or ongoing ressurections/spawns.
