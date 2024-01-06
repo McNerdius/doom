@@ -1,7 +1,11 @@
+<div align="center">
+  
 # BIGMACDECK
 ## v5.4
 
 ![BigMacDeck-screenshot](BigMacDeck-5.4/graphics/decks/BigMacDeck.png)
+
+</div>
 
 A large, streaming-friendly deck for [Corruption Cards](https://forum.zdoom.org/viewtopic.php?t=67939).  It disables 58 cards (see below [below](#disabled-cards) for a listing and notes), leaving 197 in play - double the default "Balanced" deck.
 
