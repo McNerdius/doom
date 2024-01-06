@@ -40,7 +40,10 @@ Which looks like this:
 
 One feature this deck doesn't take advantage of is custom monster grouping.  This would allow disabling certain buffs on boss monsters.
 
-In time this repository will house "McDeck", a tool i'm working on to simplify creation and sharing of custom decks.
+In time this repository will house "McDeck" (for lack of a better name...), a set of tools i'm working on to simplify creation and sharing of custom decks.  It consists of:
+- A CLI to collate and dump assets from Corruption Cards PK3s to a more "consumable" format.  It can be used to generate custom decks but this tedious given 200+ cards.
+- A web API to consume dumped data programatically.  For now it has endpoints to provide Decks and Cards (by ID, Base Class, or Type) for the latest version of Corruption Cards.  Search and version selection will be added.
+- A site to browse and search Corruption Cards and create custom Decks.  Future versions will allow loading previously customized Decks for further editing, and if there is interest a "Community Decks" page.
 
 # Disabled cards
 
@@ -62,25 +65,25 @@ Wrath Sentries:
 ------
 Add several sentries that fire {species} projectiles.
 
-Notes: Progress-blocking.
+Notes: Progress-blocking - they could be placed such that intended safe spots or transporter destinations are vulnerable.
 
 Cult Chow:
 ------
 Health items become Priest Porridge (tastes better warm!)
 
-Notes: I've had some weird issues with stacked health potion.
+Notes: I've had some weird issues with stacked health potions.
 
 Brutal Totem:
 ------
 Spawn a totem that doubles monster damage.
 
-Notes: A wee bit unfair ?
+Notes: A wee bit much...
 
 Frankenstein's Gift:
 ------
 {species} can stitch together two corpses to make a new monster.
 
-Notes: Gets out of control when applied randomly mid-level.
+Notes: Gets out of control when applied to extra monsters mid-level.
 
 Armageddon:
 ------
@@ -96,12 +99,12 @@ Notes: What's the HP ?
 
 
 Leaking Soul:
-Your bonus health drains over time.
 ------
+Your bonus health drains over time.
 
 Annoying Devil:
-A devil will follow players and cause mischief.
 ------
+A devil will follow players and cause mischief.
 
 Unfinished Business:
 ------
@@ -113,7 +116,7 @@ Marked for death:
 ------
 Monsters begin hunting players from the start.
 
-Notes: Potentially level-breaking.
+Notes: Potentially level-breaking.  (Keeping blind playthroughs in mind here.)
 
 Sludge Rain:
 ------
@@ -135,13 +138,13 @@ Blade Traps:
 ------
 Spawn several spinning blade traps in the level.
 
-Notes: Much more damaging than other traps and can break invisible-lift style bridges and similar tricks.
+Notes: Much more damaging than other traps and can break invisible-lift style bridges and similar tricks, block intended safe zones, doorways, lifts...
 
 Teleport Shock:
 ------
 When something teleports, a shockwave shoves entities away.
 
-Notes: Potentially level breaking.
+Notes: May make 100% item count unachievable.
 
 Co-operative Evil:
 ------
@@ -159,9 +162,13 @@ Hotter Start:
 ------
 At the start of the level, 20 monsters are teleported near players.
 
+Notes: Nope.
+
 Adaptable Foe:
 ------
 Bosses gain up to 3 random enchantments while in combat.
+
+Notes: This is one where `monstergroup` will be useful.
 
 The Howling:
 ------
@@ -173,6 +180,8 @@ Chain Resurrections:
 ------
 When a monster resurrects, another nearby is also resurrected.
 
+Notes: "Nearby" may be unreachable.
+
 Night Totem:
 ------
 Spawn a totem that makes monsters invisible.
@@ -182,6 +191,8 @@ Notes: Completely invisible = completely unreasonable.
 Vile Totem:
 ------
 Spawn a totem that resurrects nearby monsters.
+
+Notes: Archvile with higher range and frequency...
 
 Concealed Totems:
 ------
@@ -197,7 +208,7 @@ Resurrection Curse:
 ------
 One monster is cursed. Killing it resurrects nearby monsters.
 
-Notes: Much worse than similar duplication effects.
+Notes: Much worse than similar duplication effects, and "one monster" is a starting point - with this in the deck it could be applied randomly in other circumstances.
 
 Mirror Curse:
 ------
@@ -225,8 +236,7 @@ Notes: Visibility is handy
 
 Curse Of Decay:
 ------
-One monster is cursed. When it dies, exploding critters infest 
-nearby corpses.
+One monster is cursed. When it dies, exploding critters infest nearby corpses.
 
 Notes: SUPER annoying.
 
@@ -234,7 +244,7 @@ Incineration Curse:
 ------
 One monster is cursed. Killing it burns nearby items.
 
-Notes: Potentially level breaking.
+Notes: Burned items means 100% items won't happen.
 
 Curse of Achilles:
 ------
@@ -246,13 +256,13 @@ Kleptomania:
 ------
 {species} will steal items off the ground.
 
-Notes: Good luck getting 100% items with this one.
+Notes: Another potential 100% items killer.
 
 Casali's Watchers:
 ------
 {species} may become an immobile, self-resurrecting sentry.
 
-Notes: Progress blockers
+Notes: Progress blockers, same as sentries.
 
 Forbidden Gaze:
 ------
